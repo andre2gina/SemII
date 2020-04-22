@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Roboto'
+rel='stylesheet'>
+<title>Tema 1</title>
+</head>
+ <style>
+ * {
+ box-sizing: border-box;
+ }
+ div,
+ p {
+ margin: 0;
+ padding: 0;
+ }
+ body {
+ font-family: "Roboto";
+ }
+ </style>
+
+<body>
+<div class="label" style ="width: 52mm; height: 37mm; background-color: #DDD; padding-top:
+10mm; border: 1px solid #BBB;">
+
+<div id="materie" style="padding-left: 10mm; font-size: 16px; font-weight: bold; 
+color: #444;"></div>
+
+
+<div id="tip" style="padding-left: 10mm; font-size: 11px; font-style: italic;
+color: #AAA;"></div>
+ </div>
+ <script>
+ 	"use strict";
+ 	const materia = document.querySelector("#materie");
+ 	materia.innerHTML = "INFORMATICA";
+ 	const tipul = document.querySelector("#tip");
+ 	tipul.innerHTML = "Caiet pentru exercitii";
+ </script>
+</html>
